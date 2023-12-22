@@ -20,6 +20,9 @@ dependencies:
   framer-motion:
     specifier: ^10.16.16
     version: registry.npmjs.org/framer-motion@10.16.16(react-dom@18.2.0)(react@18.2.0)
+  js-cookie:
+    specifier: ^3.0.5
+    version: registry.npmjs.org/js-cookie@3.0.5
   react:
     specifier: ^18.2.0
     version: registry.npmjs.org/react@18.2.0
@@ -37,6 +40,9 @@ dependencies:
     version: registry.npmjs.org/react-router-dom@6.21.1(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
+  '@types/js-cookie':
+    specifier: ^3.0.6
+    version: registry.npmjs.org/@types/js-cookie@3.0.6
   '@types/node':
     specifier: ^20.10.5
     version: registry.npmjs.org/@types/node@20.10.5
@@ -2493,6 +2499,12 @@ packages:
       '@babel/types': registry.npmjs.org/@babel/types@7.23.6
     dev: true
 
+  registry.npmjs.org/@types/js-cookie@3.0.6:
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@types/js-cookie/-/js-cookie-3.0.6.tgz}
+    name: '@types/js-cookie'
+    version: 3.0.6
+    dev: true
+
   registry.npmjs.org/@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz}
     name: '@types/json-schema'
@@ -4944,6 +4956,13 @@ packages:
       reflect.getprototypeof: registry.npmjs.org/reflect.getprototypeof@1.0.4
       set-function-name: registry.npmjs.org/set-function-name@2.0.1
     dev: true
+
+  registry.npmjs.org/js-cookie@3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/js-cookie/-/js-cookie-3.0.5.tgz}
+    name: js-cookie
+    version: 3.0.5
+    engines: {node: '>=14'}
+    dev: false
 
   registry.npmjs.org/js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz}

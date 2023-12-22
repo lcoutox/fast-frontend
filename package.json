@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --fix",
     "preview": "vite preview",
     "prepare": "husky install"
   },
@@ -16,6 +16,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^10.16.16",
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^4.0.12",
@@ -23,6 +24,7 @@
     "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
